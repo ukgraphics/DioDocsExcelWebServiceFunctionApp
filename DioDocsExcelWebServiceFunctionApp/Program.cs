@@ -25,7 +25,7 @@ namespace DioDocsExcelWebServiceFunctionApp
             // WEBSERVICE関数
             ws.Range["B2"].Formula = "=WEBSERVICE(B1)";
 
-            // WEBSERVICEから返されたXMLを折り返し
+            // 取得したXMLを折り返し
             ws.Range["B2"].WrapText = true;
             ws.Range["B2"].RowHeight = 200;
 
